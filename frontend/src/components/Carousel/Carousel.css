@@ -1,0 +1,48 @@
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.nav-btn {
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: #444;
+  color: white;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.nav-btn:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 600px;
+  height: 20vh;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  width: calc(100% * 4 / 3); /* because 4 images shown 3 at a time */
+}
+
+.carousel-item {
+  flex: 0 0 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 8px;
+}

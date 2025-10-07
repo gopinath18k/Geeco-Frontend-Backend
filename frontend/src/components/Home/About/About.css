@@ -1,0 +1,94 @@
+.about_main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about_paragraph_content{
+    width: 75%;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-family: var(--second-font);
+    font-weight: normal;
+    color: var(--text-para-color);
+    text-align: center;
+}
+.about_ourstory_content h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--main-font);
+    color: var(--title-color);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+/* Our Story */
+
+.about_ourstory_img_containers{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Our Story First Section */
+
+.about_image_container_one{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content:center ;
+}
+.about_first_content_container{
+    position: absolute;
+    left: 300px;
+}
+.about_first_content_container p{
+    text-align: end;
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: normal;
+}
+.about_image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    border: 4px solid #BEBEBE;
+    border-radius: 100%;
+    padding: 5px; 
+}
+
+.about_first_image{
+    width: 100%;
+}
+.about_image_container_line{
+    display: flex;
+    justify-content: center;
+}
+.about_line{
+    width: 5px;
+}
+
+/* Our Story First Section */
+
+.about_image_container_two{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content:center ;
+}
+
+.about_second_content_container{
+    position: absolute;
+    right:300px;
+}
+.about_second_content_container p{
+    text-align: start;
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: normal;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-first-container{
+    background-color: --primary-color;
+    margin-top: 50px;
+}
+.contact-first-inner-container{
+    margin: 0 auto;
+    width: 85%;
+    padding: 10px 0;
+    /* border: 2px solid red; */
+}
+.contact-first-head{
+    font-family: var(--main-font);
+
+}
+.contact-input-box{
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 3px;
+}
+.contact-label-field{
+    font-family: var(--main-font);
+
+}
+.contact-submit-btn{
+    padding: 8px 100px;
+    border: none;
+    background-color: var(--bg-color);
+    font-family: var(--main-font);
+    font-size: 20px;
+    color: var(--banner-text-color);
+    border-radius: 2px;
+}
+
+
+/* .................................. Second Container CSS .............................. */
+
+.contact-second-container{
+    margin-top: 40px;
+    padding: 0;
+}
+.contact-second-inner-container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/* .................................... Third Container ................  */
+
+
+.contact-third-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact-third-inner-container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+.contact-third-row{
+    column-gap: 30px;
+}
+.contact-third-col{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+}
+.contact-third-col h3{
+      font-family: var(--main-font);
+      font-size: var(--h3-font-size);
+}
+.contact-third-col a{
+      font-family: var(--second-font);
+      font-size: var(--small-font-size);
+      text-decoration: none;
+      color: var(--text-para-color);
+}
+.contact-third-col p{
+    font-family: var(--second-font);
+    font-size: var(--small-font-size);
+    color: var(--text-para-color);
+}
+
+
+
+
+
+
+
+/* ............................... Media Query Contact Page ............................  */
+@media only screen and (max-width:800px) {
+    .contact-third-col h3{
+        font-size: var(--larger-font-size);
+    }
+    .contact-third-col a{
+        font-size: var(--tiny-font-size);
+    }
+    .contact-third-col p{
+        font-size: var(--tiny-font-size);
+    }
+    
+  
+}
+@media only screen and (max-width:600px) {
+    .contact-first-row{
+        row-gap: 20px;
+    }
+    .contact-third-row{
+         row-gap: 20px;
+         
+    }
+    .contact-third-col h3{
+      font-family: var(--main-font);
+      font-size: var(--h3-font-size);
+}
+.contact-third-col a{
+      font-family: var(--second-font);
+      font-size: var(--small-font-size);
+      text-decoration: none;
+      color: var(--text-para-color);
+}
+.contact-third-col p{
+    font-family: var(--second-font);
+    font-size: var(--small-font-size);
+    color: var(--text-para-color);
+}
+    .contact-map{
+        height: 300px;
+    }
+}

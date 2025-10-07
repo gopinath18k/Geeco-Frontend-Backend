@@ -1,0 +1,157 @@
+.RegisteredPumps__container {
+  max-width: 850px;
+  margin: 10px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.RegisteredPumps__Heading {
+  text-align: center;
+  font-size: 32px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.RegisteredPumps__list {
+  list-style: none;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.RegisteredPumps__list-item {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.RegisteredPumps__list-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.RegisteredPumps__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.RegisteredPumps__info span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e293b;
+}
+
+.RegisteredPumps__info b {
+  color: #334155;
+}
+
+.RegisteredPumps__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.RegisteredPumps__btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+/* Action Buttons */
+.RegisteredPumps__edit-btn {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: #1e293b;
+}
+.RegisteredPumps__edit-btn:hover {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #fff;
+}
+
+.RegisteredPumps__delete-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #ffffff;
+}
+.RegisteredPumps__delete-btn:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  box-shadow: 0 4px 10px rgba(220, 38, 38, 0.35);
+}
+
+.RegisteredPumps__cancel-btn {
+  background: linear-gradient(135deg, #94a3b8, #64748b);
+  color: #ffffff;
+}
+.RegisteredPumps__cancel-btn:hover {
+  background: linear-gradient(135deg, #64748b, #475569);
+}
+
+/* Form Inputs inside Edit Mode */
+.RegisteredPumps__input,
+.RegisteredPumps__select {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.RegisteredPumps__search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.RegisteredPumps__search-input {
+  width: 70%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.RegisteredPumps__search-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+}
+
+.RegisteredPumps__no-results {
+  text-align: center;
+  color: #64748b;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.RegisterPump__check-Btn {
+  margin-top: 20px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background: #475569;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.RegisterPump__check-Btn:hover {
+  background: #334155;
+}

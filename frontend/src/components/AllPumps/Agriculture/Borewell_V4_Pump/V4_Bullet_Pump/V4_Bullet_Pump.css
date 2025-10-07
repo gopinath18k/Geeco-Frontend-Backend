@@ -1,0 +1,610 @@
+.Bullet_V4_Pump_Main_Conatiner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 2px solid red;
+}
+Link{
+    text-decoration: none;
+}
+
+/* Banner container */
+.Bullet_V4_Pump_Banner_container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    gap: 40px;                 
+    background-image: url("../../../../../images/Agriculture/V3 Banner.webp"); /* You might want to update this image path to a V4 specific one */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px;           
+    box-sizing: border-box;
+}
+
+/* Pump image */
+.Bullet_V4_Pump_Banner_image {
+    width: 10%;               
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bullet_V4_Pump_images {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Banner content */
+.Bullet_V4_Pump_Banner_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    text-align: left;
+    color: var(--banner-text-color);
+}
+
+.Bullet_V4_Pump_Banner_Content p {
+    font-size: 20px;
+    font-family: var(--second-font);
+    font-weight: 500;
+    color: black;
+    margin: 5px 0;
+}
+
+.Bullet_V4_Pump_Banner_Content h2 {
+    font-size: 45px;
+    font-family: var(--second-font);
+    font-weight: 500;
+    color: black;
+    margin: 5px 0;
+}
+.Bullet_V4_Pump_Banner_Content h3 {
+    font-size: 35px;
+    font-family: var(--second-font);
+    font-weight: 200;
+    color: black;
+    margin: 5px 0;
+}
+
+.Bullet_V4_Pump_Range_Container_one{
+    background-color: #E1E1E1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.Bullet_V4_Pump_Range_Container_Two{
+    background-color: #E1E1E1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #A1A1A1;
+    
+}
+.Pump_Range_Heading{
+    font-size: 15px;
+    font-family: var(--second-font);
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+    margin-bottom: 0px;
+    text-align: center;
+    
+}
+.Pump_Range_container{
+    border-right: 1px solid #A1A1A1;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.Bullet_V4_Pump_Descriptions{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Bullet_V4_Pump_text_conatiner{
+    width: 90%;
+    gap: 10px;
+}
+.Bullet_V4_Pump_text_conatiner p{
+    font-size: 16px;
+    font-family: var(--second-font);
+    color: var(--text-para-color);
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.Bullet_V4_Pump_text_conatiner h3{
+    font-size: 22px;
+    font-family: var(--main-font);
+    color: var(--text-para-color);
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* // ------Form-------- // */
+
+.Bullet_V4_Pump_Form_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-top: 50px;
+}
+.Pump_Form_Section{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.Pump_Form_Contact{
+    background-color: var(--contanier-bg-color);
+    width: 75%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.Pump_Form_Contact h3{
+    font-family: var(--main-font);
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+.Bullet_V4_Pump_Contact_Form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Bullet_V4_Pump_Contact_Form input{
+    width: 100%;
+    border: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.Bullet_V4_Pump_Submit{
+    width: 40%;
+    background-color: var(--bg-color);
+    border: none;
+    color: white;
+    font-family: var(--second-font);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.Bullet_V4_Pump_Submit:hover{
+    background-color: white;
+    color: red;
+    font-weight: 600;
+    border:1px solid red;
+    
+}
+input::placeholder{
+    color: var(--text-para-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.5;  
+}
+.Bullet_V4_Pump_Contact_Form input:focus {
+    outline: none;
+    border: 1px solid red;
+    background-color: #fff; 
+    transition: all 0.3s ease-in-out;
+}
+
+.Related_Pump_Section h4{
+    font-family: var(--second-font);
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    text-align: start;
+}
+.Related_Pump_Section p{
+    font-family: var(--second-font);
+    font-size: 16px;
+    color: var(--text-para-color);
+    font-weight: 400;
+    text-align: start;
+}
+.Related_Pump_Section a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.Related_Pump_Section a:hover {
+  text-decoration: none;
+}
+
+
+
+
+/* Responsive adjustments */
+
+@media screen and (min-width: 320px){
+
+    /* Banner_ Section */
+
+    .Bullet_V4_Pump_Banner_container {
+        height: 35vh;
+    }
+    .Bullet_V4_Pump_Banner_image {
+        width: 40%; 
+    } 
+    .Bullet_V4_Pump_Banner_Content h2 {
+        font-size: 18px;
+    }
+    .Bullet_V4_Pump_Banner_Content h3 {
+        font-size: 16px;
+    }
+    .Bullet_V4_Pump_Banner_Content p {
+        font-size: 14px;
+    }
+
+    /* Pump_Details_ Section */
+
+    .Pump_Range_Heading{
+        font-size: 14px;
+    }
+    .Pump_Range_container{
+        padding: 5px;
+    }
+    .Bullet_V4_Pump_Range_Container_one{
+        margin-top: 20px;
+    }
+    .Bullet_V4_Pump_text_conatiner p{
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    }
+    .Bullet_V4_Pump_text_conatiner h3{
+        font-size: 18px;
+    }
+
+    /* Pump_Details_ Section */
+
+    .Pump_Range_Heading{
+        font-size: 14px;
+    }
+    .Pump_Range_container{
+        padding: 5px;
+    }
+    .Bullet_V4_Pump_Range_Container_one{
+        margin-top: 20px;
+    }
+    .Bullet_V4_Pump_text_conatiner p{
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    }
+    .Bullet_V4_Pump_text_conatiner h3{
+        font-size: 18px;
+    }
+
+    
+
+    /* Pump_Form_ Section */
+    
+    .Pump_Form_Section{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .Pump_Form_Contact{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .Pump_Form_Contact h3{
+        font-size: 18px;
+    }
+    .Bullet_V4_Pump_Submit{
+        font-size: 15px;
+    } 
+
+    /* Related_Pump_ Section */
+
+    .Related_Pump_Section h4{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .Related_Pump_Section p{
+        font-size: 14px;
+    }
+
+
+}
+@media screen and (min-width: 375px){
+
+    /* Banner_ Section */
+
+    .Bullet_V4_Pump_Banner_container {
+        height: 60vh;
+    }
+    .Bullet_V4_Pump_Banner_image {
+        width: 25%; 
+    } 
+    .Bullet_V4_Pump_Banner_Content h2 {
+        font-size: 20px;
+    }
+    .Bullet_V4_Pump_Banner_Content h3 {
+        font-size: 18px;
+    }
+    .Bullet_V4_Pump_Banner_Content p {
+        font-size: 15px;
+    }
+
+    /* Pump_Details_ Section */
+
+    .Pump_Range_Heading{
+        font-size: 14px;
+    }
+    .Pump_Range_container{
+        padding: 5px;
+    }
+    .Bullet_V4_Pump_Range_Container_one{
+        margin-top: 20px;
+    }
+    .Bullet_V4_Pump_text_conatiner p{
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    }
+    .Bullet_V4_Pump_text_conatiner h3{
+        font-size: 18px;
+    }
+
+    
+
+    /* Pump_Form_ Section */
+    
+    .Pump_Form_Section{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .Pump_Form_Contact{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .Pump_Form_Contact h3{
+        font-size: 18px;
+    }
+    .Bullet_V4_Pump_Submit{
+        font-size: 15px;
+    } 
+
+    /* Related_Pump_ Section */
+
+   
+    .Related_Pump_Section h4{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .Related_Pump_Section p{
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (min-width: 425px){
+
+    /* Banner_ Section */
+
+    .Bullet_V4_Pump_Banner_container {
+        height: 65vh;
+    }
+    .Bullet_V4_Pump_Banner_image {
+        width: 25%; 
+    } 
+    .Bullet_V4_Pump_Banner_Content h2 {
+        font-size: 20px;
+    }
+    .Bullet_V4_Pump_Banner_Content h3 {
+        font-size: 18px;
+    }
+    .Bullet_V4_Pump_Banner_Content p {
+        font-size: 15px;
+    }
+
+    
+    /* Pump_Form_ Section */
+    
+    .Pump_Form_Section{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .Pump_Form_Contact{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .Pump_Form_Contact h3{
+        font-size: 18px;
+    }
+    .Bullet_V4_Pump_Submit{
+        font-size: 15px;
+    } 
+
+    /* Related_Pump_ Section */
+
+   
+    .Related_Pump_Section h4{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .Related_Pump_Section p{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+    /* Banner_ Section */
+
+    .Bullet_V4_Pump_Banner_container {
+        height: 80vh;
+    }
+    .Bullet_V4_Pump_Banner_image {
+        width: 15%; 
+    }
+    .Bullet_V4_Pump_Banner_Content h2 {
+        font-size: 25px;
+    }
+    .Bullet_V4_Pump_Banner_Content h3 {
+        font-size: 22px;
+    }
+    .Bullet_V4_Pump_Banner_Content p {
+        font-size: 16px;
+    }
+
+    
+
+    /* Pump_Form_ Section */
+
+    .Pump_Form_Section{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .Pump_Form_Contact{
+        width: 90%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .Pump_Form_Contact h3{
+        font-size: 18px;
+    }
+    .Bullet_V4_Pump_Submit{
+        font-size: 15px;
+    }
+
+    /* Related_Pump_ Section */
+
+    .Related_Pump_Section h4{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .Related_Pump_Section p{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    /* Banner_ Section */
+
+    .Bullet_V4_Pump_Banner_container {
+        height: 70vh;
+    }
+    .Bullet_V4_Pump_Banner_image {
+        width: 10%; 
+    }
+    .Bullet_V4_Pump_Banner_Content h2 {
+        font-size: 35px;
+    }
+    .Bullet_V4_Pump_Banner_Content h3 {
+        font-size: 25px;
+    }
+    .Bullet_V4_Pump_Banner_Content p {
+        font-size: 16px;
+    }
+
+    /* Pump_Details_ Section */
+
+    .Bullet_V4_Pump_text_conatiner p{
+        font-size: 15px;
+        letter-spacing: 0.2px;
+    }
+    .Bullet_V4_Pump_text_conatiner h3{
+        font-size: 20px;
+    }
+
+    
+
+    /* Pump_Form_ Section */
+
+    .Pump_Form_Section{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .Pump_Form_Contact{
+        width: 70%;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    .Pump_Form_Contact h3{
+        font-family: var(--main-font);
+        font-size: 20px;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+    }
+    .Bullet_V4_Pump_Submit{
+        font-size: 15px;
+    }
+
+    /* Related_Pump_ Section */
+    
+
+    .Related_Pump_Section h4{
+        font-size: 22px;
+        margin-top: 0px;
+    }
+    .Related_Pump_Section p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+    /* Banner_ Section */
+
+    .Bullet_V4_Pump_Banner_container {
+        height: 75vh;
+    }
+    .Bullet_V4_Pump_Banner_image {
+        width: 9%; 
+    }
+   
+    .Bullet_V4_Pump_Banner_Content h2 {
+        font-size: 40px;
+    }
+    .Bullet_V4_Pump_Banner_Content h3 {
+        font-size: 30px;
+    }
+    .Bullet_V4_Pump_Banner_Content p {
+        font-size: 18px;
+    }
+    
+}

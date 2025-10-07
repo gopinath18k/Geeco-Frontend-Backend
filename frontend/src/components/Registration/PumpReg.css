@@ -1,0 +1,230 @@
+/* ✅ Unique container class */
+.PumpRegistration__container {
+  max-width: 850px;
+  margin: 10px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.PumpRegistration__container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Grid Layout */
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headings */
+.PumpRegistration__Heading {
+  text-align: center;
+  font-size: 32px;
+  color: #2563eb;
+  font-family: var(--main-font);
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.PumpRegistration__SubHeading {
+  text-align: center;
+  color: #0f172a;
+  font-family: var(--second-font);
+  margin: 30px 0 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Labels & Inputs */
+.PumpRegistration__label {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: var(--main-font);
+  color: #475569;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.PumpRegistration__input,
+.PumpRegistration__select {
+  padding: 14px 16px;
+  font-size: 15px;
+  font-family: var(--main-font);
+  border: 1.5px solid #cbd5e1;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.15s;
+  width: 100%;
+}
+
+.PumpRegistration__input:focus,
+.PumpRegistration__select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+  transform: scale(1.01);
+}
+
+.PumpRegistration__select {
+  cursor: pointer;
+}
+
+.PumpRegistration__input[readonly] {
+  background-color: #e2e8f0;
+  color: #475569;
+}
+
+/* Submit Button */
+.submit-Btn {
+  padding: 13px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 40%;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Pump List */
+.pump-list {
+  list-style: none;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.pump-list li {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.pump-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.pump-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pump-info span {
+  font-size: 15px;
+  font-family: var(--second-font);
+  font-weight: 400;
+  color: #1e293b;
+}
+
+.pump-info b {
+  color: #334155;
+}
+
+.pump-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pump-actions button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+/* Buttons */
+.edit-btn {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: #1e293b;
+}
+.edit-btn:hover {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #fff;
+}
+
+.delete-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #ffffff;
+}
+.delete-btn:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  box-shadow: 0 4px 10px rgba(220, 38, 38, 0.35);
+}
+
+.cancel-btn {
+  background: linear-gradient(135deg, #94a3b8, #64748b);
+  color: #ffffff;
+}
+.cancel-btn:hover {
+  background: linear-gradient(135deg, #64748b, #475569);
+}
+
+/* Success Message */
+.message {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1.5px solid #16a34a;
+  padding: 14px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  margin: 15px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Error Message */
+.error {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1.5px solid #dc2626;
+  padding: 14px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  margin: 15px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

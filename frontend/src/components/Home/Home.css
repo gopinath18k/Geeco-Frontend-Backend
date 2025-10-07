@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home-landing-container {
+  position: relative;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  height: 85vh;
+  background-image: url(../../images/main-banner.jpeg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.home-landing-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 0;
+}
+.home-landing-inner-container{
+    /* border: 1px solid white; */
+    width: 95%;
+    margin: 0 auto;
+     position: relative;
+  z-index: 1;
+}
+.pumpbanner{
+    width: 70%;
+}
+.home-banner-first-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.home-banner-first-col h3{
+    font-size: var(--large-font-size);
+    font-family: var(--main-font);
+    color: var(--banner-text-color);
+    text-decoration: underline;
+    font-weight: 200;
+}
+.home-banner-first-col h1 {
+    font-size: var(--bigger-font-size);
+    font-family: var(--main-font);
+    color: var(--banner-text-color);
+    font-weight: 600;
+}
+
+.home-banner-first-col p {
+    font-size: var(--small-font-size);
+    font-family: var(--second-font);
+    color: var(--banner-text-color);
+    font-weight: 200;
+}
+
+.home-banner-second-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ............................................ Section Two Css ......................................... */
+
+.home-section-two-container{
+    margin-top: 80px;
+    overflow: hidden;
+}
+.home-section-two-inner-container{
+    width: 95%;
+    margin: 0 auto;
+}
+.home-section-two-inner-container h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--main-font);
+    color: var(--title-color);
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.home-section-two-inner-container p{
+    font-size: var(--normal-font-size);
+    font-family: var(--second-font);
+    color: var(--text-para-color);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* ..................................................... Section Three Css ..................................................... */
+
+.home-section-three-container{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+.home-section-three-inner-container{
+    width: 95%;
+    margin: 0 auto;
+  
+}
+.home-section-three-inner-container h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--main-font);
+    color: var(--title-color);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* ..................................................... Video Section Css ..................................................... */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 95%;
+  height: 75vh;
+  padding: 0px;
+}
+
+.video-player {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+
+/* ..................................................... Section Five Css ..................................................... */
+
+
+.home-section-five-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.home-section-five-firstinner-container{
+    width: 95%;
+    margin: 0 auto;
+}
+.home-section-five-firstinner-container h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--main-font);
+    color: var(--title-color);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* ..................................................... Section Six Css ..................................................... */
+
+
+.home-section-six-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.home-section-six-firstinner-container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.Mission_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.vision_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.Mission_Heading,.vision_containe{
+    font-size: 30px;
+    font-family: var(--second-font);
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+}
+.Mission_Paragraph{
+    font-size: 16px;
+    font-family: var(--second-font);
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: var(--text-para-color);
+    text-align: start;
+    width: 80%;
+}
+.vision_Paragraph{
+    font-size: 16px;
+    font-family: var(--second-font);
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: var(--text-para-color);
+    text-align: end;
+    width: 80%;
+}
+
+
+/* ..................................................... Section Eight Css ..................................................... */
+
+.home-section-Eight-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.home-section-Eight-firstinner-container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.ourteam_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.ourteam_inner_image_container{
+    width: 25%;
+}
+.ourteam_image{
+    width: 100%;
+}
+
+/* ..................................................... Nine Section Css ..................................................... */
+
+.home-section-nine-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.home-section-nine-firstinner-container{
+    width: 95%;
+    margin: 0 auto;
+  
+}
+.home-section-nine-firstinner-container h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--main-font);
+    color: var(--title-color);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.home-section-nine-second-container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Blog_first_container,.Blog_second_container,.Blog_Third_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.Blog_Images{
+    width: 100%;
+    height: 200px;
+}
+.Blog_content_container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.Blog_Heanding{
+    font-size: 18px;
+    font-family: var(--second-font);
+    color: var(--title-color);
+    font-weight: 600;
+}
+.Blog_Paragraph{
+    font-size: 15px;
+    font-family: var(--second-font);
+    color: var(--text-para-color);
+    font-weight: normal;
+    text-align: justify;
+}
+.Blog_Paragraph_Viewmore{
+    font-size: 14px;
+    font-family: var(--second-font);
+    color: var(--title-red-color);
+    font-weight: 600;
+}

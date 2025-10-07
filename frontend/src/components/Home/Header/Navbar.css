@@ -1,0 +1,150 @@
+.Navbar{
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.section__Navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo__image{
+    width: 60%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.Navbar__container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: 10px;
+}
+.Navbar__Allmenu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+    padding-right: 10px;
+}
+.Nav_Home,.Nav_About_Us,.Nav_All_Pumps,.Nav_Pump_Selection_Tool,.Nav_Warranty_Registration{
+    font-family: var(--main-font);
+    font-size: var(--normal-font-size);
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.Navbar__contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-self: end;
+    background-image: url("../../../images//Nav\ Banner.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-left: 20px;
+    
+    
+}
+
+.text__menu__red{
+    font-family: var(--main-font);
+    font-size: var(--normal-font-size);
+    text-decoration: none;
+    color: var(--title-red-color);
+}
+.Navbar__contactNumberdetails,.Navbar__contactMaildetails{
+    font-family: var(--main-font);
+    font-size: var(--tiny-font-size);
+    text-decoration: none;
+    color: var(--title-color);
+}
+.Navbar_callIcon,.Navbar_MailIcon{
+    margin-right: 10px;
+}
+.Navbar__Mobile{
+    display: none;
+}
+.Navbar__MobileMenu{
+    display: none;
+}
+
+.Navbar__MobileMenu.active{
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    margin-top: 10px;
+    height: 70vh;
+}
+
+
+@media only screen and (max-width: 768px){
+    .Navbar__Mobile{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    }
+    .Nav_Menus{
+        display: none;
+    }
+    .Nav__Mobile__Icons{
+        font-size: 40px;
+    }
+    .section__Navbar{
+    padding: 10px;
+    }
+    .logo__image{
+        width: 50%;
+    }
+    .Navbar__MobileMenu{
+        display: none;
+    }
+    .Navbar__AllMobilemenu{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+
+    }
+    .Nav_Mobile_Home,.Nav_Mobile_About_Us,
+    .Nav_Mobile_Pumps,.Nav_Mobile_Pump_Selection_Tool,
+    .Nav_Mobile_Warranty_Registration{
+        font-family: var(--main-font);
+        font-size: var(--normal-font-size);
+        text-decoration: none;
+        color: var(--title-color);
+    }
+}
+@media screen and (max-width:425px) {
+    .Navbar__Mobile{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    }
+    .Nav__Mobile__Icons{
+        font-size: 35px;
+    }
+    .logo__image{
+        width: 50%;
+    }
+    .Navbar__MobileMenu{
+        display: none;
+    }
+    .Navbar__AllMobilemenu{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+
+    }
+    .Nav_Mobile_Home,.Nav_Mobile_About_Us,
+    .Nav_Mobile_Pumps,.Nav_Mobile_Pump_Selection_Tool,
+    .Nav_Mobile_Warranty_Registration{
+        font-family: var(--main-font);
+        font-size: var(--normal-font-size);
+        text-decoration: none;
+        color: var(--title-color);
+    }
+}

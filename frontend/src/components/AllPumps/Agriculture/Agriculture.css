@@ -1,0 +1,146 @@
+.pumps-container {
+  margin: 0;
+  padding: 0;
+}
+.Agriculutre_Banner_container{
+  background-image:url("../../../images/agri.webp");
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.Agriculte_Banner_Content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 80px;
+}
+.Agriculte_Banner_Content p{
+  font-size: 16px;
+  font-family: var(--second-font);
+  font-weight: 300;
+  color: var(--banner-text-color);
+}
+.Agriculte_Banner_Content h2{
+  font-size: 40px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: var(--banner-text-color);
+}
+
+.Agriculture_Banner_image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Agriculture_images{
+  width: 55%;
+}
+
+
+.pumps-content {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+.agriculture_main_heading{
+    font-family: var(--main-font);
+    font-size: 30px;
+    color: #515151;
+    
+
+}
+.categories {
+  width: 350px;
+  border: 1px solid #ccc;
+}
+
+.category-item {
+  font-family: var(--second-font);
+  font-size: 14px;
+  color: #515151;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.category-item.active {
+  background: #FF0000;
+  color: #F0F0F0;
+  
+}
+
+.pump-details {
+  flex: 1;
+}
+
+.size-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.size-tab {
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.size-tab.active {
+  background: red;
+  color: white;
+}
+
+.pump-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pump-card {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 0px;
+}
+
+.pump-card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.pump_content_conatiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+.pump-card-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+.pump_name,small {
+  font-family: var(--second-font);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  color: #515151;
+  margin-bottom: 0px;
+
+}
