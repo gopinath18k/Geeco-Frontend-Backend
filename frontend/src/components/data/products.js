@@ -107,7 +107,7 @@ export const pumps = [
     application: 'domestic',
     waterSource: 'borewell',
     installLocation: 'surface_borewell',
-    phase: '3phase_bs',
+    phase: '3phase_bs', 
     depthMin: 20, depthMax: 100,
     headMin: 40, headMax: 120,
     lpmMin: 100, lpmMax: 350,

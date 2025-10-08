@@ -74,7 +74,8 @@ function SelectionTool({ question, onAnswer, currentAnswer, goToPreviousStep, ca
             max={question.max}
             placeholder={`Enter value (${question.min}-${question.max} ${question.unit})`}
           />
-          <button onClick={handleNextClick}>Next</button>
+          <button className="Next-button" onClick={handleNextClick}>Next</button>
+          
         </div>
       ) : (
         <div className="options">
