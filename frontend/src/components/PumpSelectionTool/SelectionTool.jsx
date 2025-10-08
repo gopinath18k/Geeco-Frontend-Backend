@@ -28,7 +28,8 @@ function SelectionTool({ question, onAnswer, currentAnswer, goToPreviousStep, ca
 
   const isRangeQuestion =
     question.id.toLowerCase().includes("head") ||
-    question.id.toLowerCase().includes("discharge");
+    question.id.toLowerCase().includes("discharge")||
+    question.id.toLowerCase().includes("depth");
 
   return (
     <div className="selection-tool">
@@ -37,6 +38,8 @@ function SelectionTool({ question, onAnswer, currentAnswer, goToPreviousStep, ca
         {question.question.includes("HEAD")
           ? "Do you know how high you will need to pump water?"
           : question.question.includes("Discharge")
+          ? "Do you know how much flow you will need to pump?"
+          : question.question.includes("Depth")
           ? "Do you know how much flow you will need to pump?"
           : ""}
       </p>
